@@ -1,0 +1,49 @@
+body{
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+}
+
+.container{
+    max-width:1300px;
+    margin: 0 auto;
+        
+    
+}
+h1{
+    font-size: 50px;
+}
+.item-one p{
+    font-size: 18px;
+
+}
+.about-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-section{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    padding: 40px 0;
+}
+.orange-color{
+    color: orange;
+}
+.item-one {
+    width: 50%;
+    margin-left: 20px; 
+    margin-right: 20px;
+
+
+}
+
+.item-two{
+    width: 50%;
+    margin-left: 20px;  
+}
+
+.item-two img{
+    max-width: 100%;
+}
