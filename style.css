@@ -1,6 +1,7 @@
 body{
     font-family: 'Roboto Mono', monospace;
     margin: 0;
+    
 }
 
 .container{
@@ -12,8 +13,21 @@ body{
 h1{
     font-size: 50px;
 }
+
+h2{
+    font-size: 36px;
+}
+
+h3{
+    font-size: 30px;
+}
+
+small{
+    font-size: 18px;
+}
 .item-one p{
     font-size: 18px;
+    margin-bottom: 30px;
 
 }
 .about-items{
@@ -27,6 +41,7 @@ h1{
     background-position: right;
     background-size: cover;
     padding: 40px 0;
+    margin-bottom: 100px;
 }
 .orange-color{
     color: orange;
@@ -46,4 +61,88 @@ h1{
 
 .item-two img{
     max-width: 100%;
+}
+
+
+.button-link{
+    padding: 12px 40px;
+    background-image:linear-gradient(orange ,#F88064) ;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    
+}
+
+.dream-up-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-one img{
+    max-width: 100%;
+}
+
+.dream-up-section{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    padding: 40px 0;
+    margin-bottom: 100px;
+
+}
+
+.link-btn-bg{
+    padding: 12px 40px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    background-image: linear-gradient(#FF3786 , #FA6D5A) !important;
+}
+.item-two p{
+    margin-bottom: 30px;
+}
+
+.development-area{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.development-area-one{
+    width: 50%;
+    box-shadow: 10PX 10PX 40PX palevioletred;
+    padding: 10px 25px;
+    margin-right: 15px;
+   
+}
+
+.development-area-two{
+    width: 50%;
+    box-shadow: 10PX 10PX 40PX palevioletred;
+    padding: 30px 25px;
+    margin-left: 15px;
+    
+}
+
+.experience-section{
+    margin-bottom: 100px;
+}
+
+#web-developer{
+    border-image: linear-gradient(blue , pink);
+    border-image-slice: 1;
+    border-left:7px solid;
+}
+
+#full-stack{
+    border-image: linear-gradient(orange ,green);
+    border-image-slice: 1;
+    border-left:7px solid;
+}
+.footer{
+    text-align: center;
 }
